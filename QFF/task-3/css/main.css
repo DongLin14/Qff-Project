@@ -1,0 +1,39 @@
+.flex {
+    background-color: #eee;
+    display: flex;
+    padding: 20px;
+    border:1px solid #999;
+}
+
+.left {
+    width: 200px;
+    background-color: white;
+    border:1px solid #999;
+    height: 120px;/* 觉得这里高度不能写死，但是又不太清楚怎么搞成内容撑开的高度，flex还是有点没懂 */
+}
+
+.left p {
+    float: right;
+}
+
+.main {
+    flex: 1;
+    margin: 0 20px;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border:1px solid #999;
+}
+
+.right {
+    width: 120px;
+    background-color: white;
+    border:1px solid #999;
+}
+
+img {
+    margin: 20px;
+    background-color: #eee;
+    height: 80px;
+    width: 80px;
+}
